@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Enhanced Static Website</title>
+    <style>
+        /* Style for moving gradient background */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(270deg, #ff7e5f, #feb47b);
+            background-size: 400% 400%;
+            animation: gradientBackground 10s ease infinite;
+        }
+
+        /* Gradient animation */
+        @keyframes gradientBackground {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Styling for the page content */
+        .content {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .game {
+            margin-top: 20px;
+        }
+
+        iframe {
+            border: none;
+        }
+
+        /* Styling for instructions */
+        .instructions {
+            text-align: left;
+            margin-top: 20px;
+            background-color: rgba(240, 240, 240, 0.9);
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .instructions h2 {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .instructions ul {
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        .instructions li {
+            margin-bottom: 10px;
+        }
+
+        .instructions strong {
+            color: #000;
+        }
+
+        /* Styling for logo */
+        .logo {
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            width: 150px; /* Adjust the size of the logo */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <!-- Sample logo for the company -->
+        <div class="logo">
+            <img src="C:\Users\Vinita\Desktop\ahaan\logo.webp" alt="Company Logo">
+        </div>
+
+        <h1>Welcome to My Enhanced Static Website!</h1>
+
+        <!-- Embedding the Scratch game -->
+        <div class="game">
+            <iframe src="https://scratch.mit.edu/projects/581863579/embed" 
+                    allowtransparency="true" width="485" height="402" 
+                    frameborder="0" scrolling="no" allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- Instructions for playing the game -->
+        <div class="instructions">
+            <h2>How to Play the Game:</h2>
+            <p>The course for this block is created by the block definition. Enter the X and Y coordinates in the X and Y places, and enter the number of the costume in the third place. The same applies to obstacles and decorations.</p>
+            
+            <p>⠀⠀ ⠀⠀ ⠀⠀ ⠀⠀⠀༻༻༻⋇⋆✦⋆⋇༺༺༺</p>
+            
+            <p>There may be a slight bug. If so, please write in the comments section of Weather_man's profile. We will fix it.</p>
+            <p>+=========================================+</p>
+            
+            <p>This is my second time making a platformer, and it was pretty fun! It took me a while, but I think I made a good product. I hope you like it. If you do, please ❤, ⭐, and follow me!</p>
+        </div>
+    </div>
+</body>
+</html>
